@@ -1,0 +1,29 @@
+<section class="quem_somos">
+    <!--start setion-->
+    <h1 class="titulo1">O que e AstroStore</h1>
+    <p class="paragrafo">AstroStore e uma loja virtual, Com sua sede na cidade de Quelimane, tem como principal objetivo a venda de matiral informatico generico e (Gamer), nosso foco e trazer ate aos nossos clientes materias como PLACAS DE VIDEO , PLACA MAE, MAUSE , TECLADO , CASE , HEATSET  etc                     AstroStore e uma loja virtual, Com sua sede na cidade de Quelimane, tem como principal objetivo a venda de matiral informatico generico e (Gamer), nosso foco e trazer ate aos nossos clientes materias como PLACAS DE VIDEO , PLACA MAE, MAUSE , TECLADO , CASE , HEATSET  etc     AstroStore e uma loja virtual, Com sua sede na cidade de Quelimane, tem como principal objetivo a venda de matiral informatico generico e (Gamer), nosso foco e trazer ate aos nossos clientes materias como PLACAS DE VIDEO , PLACA MAE, MAUSE , TECLADO , CASE , HEATSET  etc</p>
+    <br\>
+    <!--servico 1-->
+    <h1 class="titulo1">Servicoes Oferecidos</h1>
+
+    <section class="1gamer">
+        <img class="servicos_img" src="">
+        <h3 class="titulo3"> Equipamentos gamer </h3>
+            <!--servico 2-->
+        </section>
+        <section class="1gamer">
+            <img class="servicos_img" src="">
+            <h3 class="titulo3">Entrega ao domicilios</h3>
+                <!--servico 3-->
+           </section>
+            <section class="1gamer">
+                <img class="servicos_img" src="">
+                <h3 class="titulo3"> Reembolso</h3>
+          
+                </section>
+        
+    
+
+     <!--end setion-->
+</section>
+

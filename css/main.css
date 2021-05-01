@@ -1,0 +1,306 @@
+/*Body start*/
+body{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: candara , comic sans Ms;
+    color:#333333;
+    background: #000000;
+}
+/*
+titulos
+Paragrafso 
+titulos 
+varios
+designer letras
+*/
+.titulo1{
+    text-align: center;
+    color: #77b900;
+}
+.titulo2{
+    color: #77b900;
+}
+.titulo2_center{
+    text-align: center;
+
+}
+
+.titulo2v{
+    color: #77b900;
+}
+
+p{
+    color: #333333;
+}
+/*end paragrofo*/
+/*Body end*/
+
+
+/*Ocultar logo start*/
+.logo-tablet{
+    display: none;
+}
+.logo-mobile{
+    display: none;
+}
+/*ocultar logo end*/
+
+/*logo start*/
+.logo-desk{
+    position: absolute;
+    top: -50px;
+    left: 5%;
+}
+/*logo end*/
+
+/*menu start*/
+div#menu1{
+
+	width: 100%;
+	padding: 3.5em 0em 0em 0em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color:#000000;
+	margin:0;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+nav#menu {
+	display: flex;
+}
+nav#menu li{
+	display: inline-block;
+	padding: 12px;
+	transition: background-color 1s;
+	border:none;
+	outline: none;
+	border-radius: 5px;		
+}
+nav#menu ul {	
+	position: absolute;
+	left:18%;
+	top: -12.5px;
+	list-style: none;
+    padding-left:100px;
+}
+nav#menu a {
+	color:#77b900;
+	transition: background-color 1s;
+    position: static;
+	text-decoration:none;
+}
+nav#menu ul li:hover {
+	background-color: #76b900;
+    color:#ffffff;	
+}
+nav#menu a{
+	position: static;
+	color:#77b900;
+	font-size: 15pt;
+	}
+nav#menu a:hover{
+	position: static;
+	color:#ffffff;
+}
+
+/*menu end*/
+
+/*User logo start*/
+.Logo_user{
+    position: absolute;
+    top: 10px;
+    left:90%;
+   max-width:100%;
+}
+
+/*User logo end*/
+/*galeria start*/
+.galeria{
+    width: 100%;
+    height:550px;
+    padding-top: 50px;
+}
+
+.igaleria ul{
+    display: flex;
+    position: absolute;
+    top: 540px;
+    left: 44%;
+
+
+}
+.igaleria ul li{
+   list-style: none;
+   width: 10px;
+   height: 10px;
+ 
+   border: #659904 solid;
+   border-radius: 50px;
+   margin-right: 16px;
+}
+.igaleria ul li:nth-child(2){
+    background: #659904;
+}
+
+
+/*info start*/
+.oque {
+    width: 15%;  
+    position: absolute;
+    left: 83%;
+    top: 700px;
+}
+.button{
+    color:#77b900;
+    background-color: #000000;
+    border: #77b900 solid;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+
+
+
+/*produtos start*/
+.Produtos{
+    flex: 1 1 2px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding-left:0;
+	max-width: 1200px;
+}
+.flex > div {
+flex: 1 1 0px;
+padding-top: 25px;
+align-items: center;
+justify-content: center;
+}
+.flex > img :hover { 
+	border: 4px solid #cb99d6 ;
+}
+
+.flex > div > .titulo2_center{
+    text-align: center;
+}
+
+/*produtos end*/
+
+/*rodape start*/
+.rodape{
+    background-color: #000000;
+    padding-bottom: 20px;
+}
+.rodape > .contacto {
+    padding-left: 40px;
+    display: inline-block;
+    background-color: #000000;
+    color:  #77b900;
+    list-style: none;
+}
+
+
+.contacto > ul{
+    border:none;
+	outline: none;
+    text-decoration:none;
+    list-style: none;
+}
+.email_icon{
+    margin: -300px 0px 22px 370px;
+}
+.titulo23{
+    padding-left: 40px;
+    color: #77b900;
+
+}
+
+.Siganos{
+padding-left: 60%;
+min-width: 20%;
+    
+}
+
+
+.email_set{
+    display:none;
+    padding: 0px 50px;
+}
+
+.textbox{
+    width: 270px;
+    padding: 11px 0px 11px 0px;
+}
+
+.email_icon2{
+    position: absolute;
+    top:2065px;
+    left: 380px;
+}
+/*Barra start*/
+.hr{
+    width: 30%;
+    align-items: center;
+}
+.hr2{
+    width: 100%;
+    margin-top: -15px;
+}
+/*Barra end*/
+
+.rodapetxet{
+    text-align: center;
+}
+/*rodape end*/
+
+
+
+
+
+
+.container{
+    padding-left: -30px;
+    display: block;
+    position: absolute;
+    top:15px;
+    left:85%;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #cb99d6;
+    content: "";
+    margin: 6px 0;
+    transition: 0.5s;
+  }
+  
+    .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-5px, 10px);
+  }
+  
+    .change .bar2 {opacity: 0;}
+  
+    .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-5px, -10px);
+  }
+
+
+  .menu_mobile{
+      display: none;
+      position: absolute;
+      background-color: #cb99d6;
+      height: 10%;
+      width: 10%;
+  }

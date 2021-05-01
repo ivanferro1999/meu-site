@@ -1,0 +1,81 @@
+/*Body start*/
+body{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: candara , comic sans Ms;
+    color:#333333;
+    background: #000000;
+}
+/*
+titulos
+Paragrafso 
+titulos 
+varios
+designer letras
+*/
+.titulo1{
+    text-align: center;
+    color: #77b900;
+}
+.titulo2{
+    color: #77b900;
+}
+.titulo2_center{
+    text-align: center;
+
+}
+
+.titulo2v{
+    color: #77b900;
+}
+
+p{
+    color: #333333;
+}
+/*end paragrofo*/
+/*Body end*/
+
+
+/*Ocultar logo start*/
+.logo-tablet{
+    display: none;
+}
+.logo-mobile{
+    display: none;
+}
+/*ocultar logo end*/
+
+/*logo start*/
+.logo-desk{
+    position: absolute;
+    top: -50px;
+    left: 5%;
+}
+/*logo end*/
+
+
+.login_text{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    padding-right:100%;
+    background: #ffffff;
+}
+
+
+.hr{
+    width: 30%;
+    align-items: center;
+}
+.hr2{
+    width: 100%;
+    margin-top: -15px;
+}
+/*Barra end*/
+
+.rodapetxet{
+    text-align: center;
+}
+/*rodape end*/
